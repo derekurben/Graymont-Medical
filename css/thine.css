@@ -24,14 +24,14 @@
 /* #General Styles
 ================================================== */
 body {
-	color: #777;
+	color: #444;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.5;
 }
 
 a, a:visited {
-	color: #e13a3a;
+	color: darkblue;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -65,7 +65,7 @@ form {
 code, 
 kbd,
 tt {
-    background: #efefef;
+    background: #c4c4c4;
     color: #000;
     display: inline-block;
     font-family: Courier, serif;
@@ -564,22 +564,22 @@ address {
 }
 
 #main-menu > li > a:hover {
-	color: #e13a3a;
+	color: darkblue;
 }
 
 #main-menu a.active {
-	color: #e13a3a;
+	color: darkblue;
 }
 
 #main-menu > li:hover > a {
-	color: #e13a3a;
+	color: darkblue;
 }
 
 /* Submenu */
 #main-menu li ul {
     /*background: #f4f4f4;*/
    	background: #fff;
-    border-top: 1px solid #e13a3a; 
+    border-top: 1px solid darkblue; 
     /*border-top: 1px solid #d8d8d8;*/
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -636,7 +636,7 @@ address {
 
 #main-menu li ul a:hover,
 #main-menu > li > ul li:hover > a {
-	background: #e13a3a;
+	background: darkblue;
 	color: #fff;
 	
 }
@@ -729,7 +729,7 @@ address {
 
 .top-bar-section a:hover,
 .top-bar-section .dropdown li.title h5 a:hover {
-	color: #e13a3a;
+	color: darkblue;
 }
 
 /* right arrow icon */
@@ -887,7 +887,7 @@ address {
 #content-wrapper h4 span,
 #content-wrapper h5 span,
 #content-wrapper h6 span {
-	color: #e13a3a;
+	color: darkblue;
 }
 
 #content-wrapper h1.light,
@@ -1063,7 +1063,7 @@ address {
 
 #content-wrapper .uxb-port-element-filters a.active,
 #content-wrapper .uxb-port-element-filters a.active:hover {
-    color: #e13a3a;
+    color: darkblue;
     cursor: default;
 	font-weight: bold;
 }
@@ -1085,7 +1085,7 @@ address {
 .uxb-port-element-item-hover {
 	background: rgb(255,255,255);
 	background: rgba(255,255,255,.9);
-	border-bottom: 2px solid #e13a3a;
+	border-bottom: 2px solid darkblue;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1440,7 +1440,7 @@ ul.uxb-team-social,
 }
 
 #content-container .uxb-team-name a:hover {
-	color: #e13a3a;
+	color: darkblue;
 }
 
 #content-container .uxb-team-position {
@@ -1547,7 +1547,7 @@ ul.uxb-team-social,
 }
 
 #blog-list-wrapper .blog-meta li.readmore-link a {
-	color: #e13a3a;
+	color: darkblue;
 	font-weight: normal;
 }
 
@@ -1578,7 +1578,7 @@ ul.uxb-team-social,
 }
 
 #blog-list-wrapper .blog-title a:hover {
-	color: #e13a3a;
+	color: darkblue;
 }
 
 .excerpt {
@@ -1619,7 +1619,7 @@ ul.uxb-team-social,
 }
 
 #blog-pagination a:hover {
-	color: #e13a3a;
+	color: darkblue;
 }
 
 #blog-pagination span.current,
@@ -1730,7 +1730,7 @@ ul#author-social a {
 }
 
 #content-container .tags a:hover {
-	background: #e13a3a;
+	background: darkblue;
 	border-color: transparent;
 	color: #fff;
 }
@@ -2195,7 +2195,7 @@ ul.bar-social li a:hover img {
 
 #content-container blockquote cite,
 #content-container .uxb-tmnl-testimonial-item .uxb-tmnl-cite {
-	color: #e13a3a;
+	color: darkblue;
     display: block;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -2391,7 +2391,7 @@ ul.bar-social li a:hover img {
 .image-hover-border {
 	background: rgb(255,255,255);
 	background: rgba(255,255,255,.5);
-	border-bottom: 2px solid #e13a3a;
+	border-bottom: 2px solid darkblue;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -2454,7 +2454,7 @@ ul.bar-social li a:hover img {
 #root-container a.image-link:hover .image-hover-icon,
 #root-container a.image-box:hover .image-hover-icon,
 #root-container .uxb-port-element-item:hover .image-hover-icon {
-	background: #e13a3a;
+	background: darkblue;
 	color: #fff;
 }
 
@@ -2522,7 +2522,7 @@ ul.bar-social li a:hover img {
 }
 
 #root-container .button:hover {
-    background: #e13a3a;
+    background: darkblue;
 	border-color: transparent;
 	color: #fff;
 }
@@ -2867,7 +2867,7 @@ i.uxb-icon.float-right {
 	border-color: #b8b8b8;
 	border-width: 1px;
 	border-style: solid;
-	border-left: 3px solid #e13a3a;
+	border-left: 3px solid darkblue;
 }
 
 .ui-accordion .ui-accordion-li-fix { 
@@ -3015,7 +3015,7 @@ i.uxb-icon.float-right {
 	border-color: #dfdfdf;
 	border-top-width: 1px;
 	border-top-style: solid;
-	border-top-color: #e13a3a;
+	border-top-color: darkblue;
 }
 
 .section-container.tabs > section.active > .title a, 
@@ -3062,7 +3062,7 @@ i.uxb-icon.float-right {
 .section-container.vertical-tabs > section.active > .title, 
 .section-container.vertical-tabs > .section.active > .title {
 	/*background: #222 !important;*/
-	border-left: 1px solid #e13a3a;
+	border-left: 1px solid darkblue;
 }
 
 .section-container.vertical-tabs > section > .title, 
@@ -3201,25 +3201,25 @@ i.uxb-icon.float-right {
 }
 
 .cta-box.bottom-line {
-	border-bottom-color: #e13a3a;
+	border-bottom-color: darkblue;
    	border-bottom-width: 1px;
    	border-bottom-style: solid;
 }
 
 .cta-box.top-line {
-	border-top-color: #e13a3a;
+	border-top-color: darkblue;
    	border-top-width: 1px;
    	border-top-style: solid;
 }
 
 .cta-box.left-line {
-	border-left-color: #e13a3a;
+	border-left-color: darkblue;
    	border-left-width: 1px;
    	border-left-style: solid;
 }
 
 .cta-box.right-line {
-	border-right-color: #e13a3a;
+	border-right-color: darkblue;
    	border-right-width: 1px;
    	border-right-style: solid;
 }
@@ -3344,7 +3344,7 @@ span.custom-icon-w-text i.checked {
 
 /***** Dropcap *****/
 span.uxb-dropcap {
-	color: #e13a3a;
+	color: darkblue;
 	float: left;
 	font-size: 24px;
 	font-weight: 600 !important;
@@ -3493,11 +3493,11 @@ ul.contact li {
 }
 
 #footer-content .tags-widget a:hover {
-	background: #e13a3a;
+	background: darkblue;
 	border-color: transparent;
 	color: #fff;
-	/*border-bottom-color: #e13a3a;
-	color: #e13a3a;*/
+	/*border-bottom-color: darkblue;
+	color: darkblue;*/
 }
 
 /***** Flickr Widget *****/
@@ -3522,12 +3522,12 @@ ul.contact li {
 
 /***** Validation Engine Plugin *****/
 .formError .formErrorArrow div {
-	background: #e13a3a;
+	background: darkblue;
 	border: 0;
 }
 
 .formError .formErrorContent {
-	background: #e13a3a;
+	background: darkblue;
 	border: 0;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
